@@ -101,13 +101,21 @@ If you need refreshers for JavaScript/HTML/CSS or Git/GitHub, check out the reso
 Sample Readme (delete the above when you're ready to submit, and modify the text below with your links and descriptions)
 ---
 
-Joshua Cuneo
-http://a1-joshuacuneo.Render.com
+Batyrkhan Saparuly
+https://a1-hansaparuly-a25.onrender.com
 
 This project shows ...
 
 ## Technical Achievements
-- **Styled page with CSS**: Added rules for the p, li, and a selectors...
+- **Styled page with CSS**: Added rules for the p, li, ul, different selectors, margin, padding, border, hover
+- **Experimented with HTML tags**: Added rules for the table, header, footer, figure and img, hr, address
+- **Simple JavaScript fade-in**: Added a aimple animation, when the webpage loads the WPI image fades in.
 
 ## Design Achievements
-- **Used the Roboto Font from Google Fonts**: I used Roboto as the font for the primary copy text in my site.
+- **Used the Story Script font from Google Fonts**: I used Story Script as the font for the primary text in my site. Used all the colors in my color palette (in this folder named bsaparuly_color_palette.png) in design, for:
+1. Background
+2. Link and hover over link
+3. Table hover
+4. Border of list items
+5. Table border
+6. Footer
