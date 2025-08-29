@@ -52,20 +52,33 @@
 		  opacity: 0;               
 		  transition: opacity 3s ease; 
 		}
+		nav {
+			  text-align: center;
+			  margin-bottom: 10px;
+			}
+		nav a {
+		  margin: 0 15px;
+		  font-weight: bold;
+		}
+		a.c {
+			background-color: #8193F0;
+		}
     </style>
   </head>
   <body>
 	<header>
+      <nav>
+        <a.c href="#about">About</a.c>
+        <a.c href="#courses">Courses</a.c>
+        <a.c href="#experience">Experience</a.c>
+        <a.c href="#contact">Contact</a.c>
+      </nav>
     <h1>Information about Han Saparuly (Batyrkhan)</h1>
 	<hr>
     </header>
-	<p>
-      My name is Han
-    </p>
-    <p>
+	<p id="about">
+      My name is Han.
       I am a senior pursuing an IMGD BS major at <a href="https://www.wpi.edu">WPI</a>
-    </p>
-    <p>
       Class of 2026
     </p>
 	  
@@ -76,7 +89,7 @@
 	</figure>
 	<hr>
 	  
-	<h2>Some previous CS courses that I took at WPI</h2>
+	<h2 id="courses">Previous CS courses that I took at WPI:</h2>
 	  
     <ul.c>
       <li>CS3733</li>
@@ -87,7 +100,7 @@
 	  
 	<hr>
 	  
-    <h2>Experience</h2>
+    <h2 id="experience">Experience:</h2>
 	<table>
 	  <tr>
 		<th>Technology</th>
@@ -119,13 +132,13 @@
 	  </tr>
 	  <tr>
 		<td>Refactoring Code</td>
-		<td>none</td>
+		<td>Some</td>
 	  </tr>
 	</table>  
 	<hr>
     <footer style = "color:#D76CF0">
       <p>Assignment 1: Han WebPage</p>
-      <address>
+      <address id="contact">
         100 Institute Rd, USA<br>
         Phone: (123) 456-7890
       </address>
@@ -133,7 +146,7 @@
 	<script>
       window.onload = function() {
       const img = document.querySelector("figure img");
-      img.style.opacity = 1;  // triggers CSS transition
+      img.style.opacity = 1; 
 	  };
     </script>
   </body>
