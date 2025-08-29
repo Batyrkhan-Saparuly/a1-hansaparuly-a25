@@ -35,8 +35,8 @@
   			border: 1px solid #573AF0;
 		}
 		table {
-		    width: 60%;     /* new rule: set table width */
-		    margin: auto;   /* new rule: center table */
+		    width: 60%;     
+		    margin: auto;   
 			}
 		header, footer {
 			font-family: "Times New Roman", sans-serif;
@@ -47,6 +47,10 @@
 		}
 		a:hover {
 		  text-decoration: underline;
+		}
+		figure img {
+		  opacity: 0;               
+		  transition: opacity 2s ease; 
 		}
     </style>
   </head>
@@ -66,12 +70,10 @@
     </p>
 	  
 	<hr>
-	<div data-aos="fade-down">
 	<figure>
 	  <img src="ex_img.png" alt="Placeholder image of me">
 	  <figcaption>Just a placeholder</figcaption>
 	</figure>
-    </div>
 	<hr>
 	  
 	<h2>Some previous CS courses that I took at WPI</h2>
@@ -128,5 +130,11 @@
         Phone: (123) 456-7890
       </address>
     </footer>
+	<script>
+      window.onload = function() {
+      const img = document.querySelector("figure img");
+      img.style.opacity = 1;  // triggers CSS transition
+	  };
+    </script>
   </body>
 </html>
