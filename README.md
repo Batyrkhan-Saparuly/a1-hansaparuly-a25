@@ -104,7 +104,7 @@ Sample Readme (delete the above when you're ready to submit, and modify the text
 Batyrkhan Saparuly
 https://a1-hansaparuly-a25.onrender.com
 
-This project shows ...
+This project is a simple personal webpage created for WPI’s CS4241 Assignment 1. 
 
 ## Technical Achievements
 - **Styled page with CSS**: Added rules for the p, li, ul, different selectors, margin, padding, border, hover
